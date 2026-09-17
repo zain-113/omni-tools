@@ -17,13 +17,13 @@ export default function Breadcrumbs({ items }: BreadcrumbsProps) {
       '@type': 'ListItem',
       position: 1,
       name: 'Home',
-      item: 'https://omnitools.app',
+      item: 'https://www.omnitoolsweb.online',
     },
     ...items.map((item, idx) => ({
       '@type': 'ListItem',
       position: idx + 2,
       name: item.label,
-      ...(item.href ? { item: `https://omnitools.app${item.href}` } : {}),
+      ...(item.href ? { item: `https://www.omnitoolsweb.online${item.href}` } : {}),
     })),
   ];
 

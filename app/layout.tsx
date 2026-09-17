@@ -1,3 +1,4 @@
+import Script from 'next/script';
 import type { Metadata } from 'next';
 import { Geist, Geist_Mono } from 'next/font/google';
 import './globals.css';
@@ -15,7 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://omnitools.app'),
+  metadataBase: new URL('https://www.omnitoolsweb.online'),
   title: {
     default: 'OmniTools - Free, Fast & 100% Private In-Browser Multi-Tools',
     template: '%s | OmniTools',
@@ -36,13 +37,13 @@ export const metadata: Metadata = {
     'text to speech free',
     'private online tools'
   ],
-  authors: [{ name: 'OmniTools Team', url: 'https://omnitools.app' }],
+  authors: [{ name: 'OmniTools Team', url: 'https://www.omnitoolsweb.online' }],
   creator: 'OmniTools',
   publisher: 'OmniTools',
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://omnitools.app',
+    url: 'https://www.omnitoolsweb.online',
     siteName: 'OmniTools',
     title: 'OmniTools - Free, Fast & 100% Private In-Browser Multi-Tools',
     description: 'High-utility online tools that run entirely in your web browser. Zero server uploads, zero data retention.',
@@ -74,8 +75,8 @@ export default function RootLayout({
     '@context': 'https://schema.org',
     '@type': 'Organization',
     name: 'OmniTools',
-    url: 'https://omnitools.app',
-    logo: 'https://omnitools.app/favicon.ico',
+    url: 'https://www.omnitoolsweb.online',
+    logo: 'https://www.omnitoolsweb.online/favicon.ico',
     description: 'High-utility client-side web utility platform engineered for absolute privacy, speed, and zero file retention.',
     sameAs: ['https://twitter.com/omnitools', 'https://github.com/omnitools'],
   };
@@ -84,10 +85,10 @@ export default function RootLayout({
     '@context': 'https://schema.org',
     '@type': 'WebSite',
     name: 'OmniTools',
-    url: 'https://omnitools.app',
+    url: 'https://www.omnitoolsweb.online',
     potentialAction: {
       '@type': 'SearchAction',
-      target: 'https://omnitools.app/?q={search_term_string}',
+      target: 'https://www.omnitoolsweb.online/?q={search_term_string}',
       'query-input': 'required name=search_term_string',
     },
   };
@@ -95,6 +96,11 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}>
       <head>
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5783091287827659"
+          crossOrigin="anonymous"
+        />
         <script
           dangerouslySetInnerHTML={{
             __html: `
