@@ -61,7 +61,7 @@ export default function PrivacyPolicyPage() {
             At OmniTools (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;), your privacy is our primary engineering principle. This Privacy Policy details how we handle information when you visit our website (the &quot;Site&quot;) and use our suite of browser-based utilities.
           </p>
           <p>
-            By accessing or using OmniTools, you acknowledge the terms outlined in this Privacy Policy. If you have questions or concerns regarding our practices, please contact our privacy compliance team via our contact form or at <span className="font-mono text-xs text-blue-600 dark:text-blue-400">privacy@omnitools.app</span>.
+            By accessing or using OmniTools, you acknowledge the terms outlined in this Privacy Policy. If you have questions or concerns regarding our practices, please contact our privacy compliance team via our contact form or at <span className="font-mono text-xs text-blue-600 dark:text-blue-400">omnitoolsofficial@gmail.com</span>.
           </p>
         </section>
 
@@ -170,7 +170,7 @@ export default function PrivacyPolicyPage() {
             <li><strong>Right to Restrict Processing:</strong> You can object to the processing of personal information.</li>
           </ul>
           <p className="mt-3 text-xs">
-            Because we do not store your processed documents or create user accounts, we maintain virtually zero persistent personal records. To exercise any data rights regarding correspondence, please email <span className="font-mono text-blue-600 dark:text-blue-400">dpo@omnitools.app</span>.
+            Because we do not store your processed documents or create user accounts, we maintain virtually zero persistent personal records. To exercise any data rights regarding correspondence, please email <span className="font-mono text-blue-600 dark:text-blue-400">omnitoolsofficial@gmail.com</span>.
           </p>
         </section>
 
