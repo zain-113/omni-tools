@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next';
 import { TOOLS } from '@/lib/tools-data';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://omnitools.app';
+  const baseUrl = 'https://www.omnitoolsweb.online';
 
   const toolUrls = TOOLS.map((tool) => ({
     url: `${baseUrl}${tool.path}`,

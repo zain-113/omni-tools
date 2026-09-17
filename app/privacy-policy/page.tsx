@@ -207,9 +207,9 @@ export default function PrivacyPolicyPage() {
           </p>
           <div className="p-4 rounded-xl bg-slate-100/80 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-xs space-y-1">
             <p><strong>OmniTools Compliance Office</strong></p>
-            <p>Email: <span className="text-blue-600 dark:text-blue-400 font-mono">privacy@omnitools.app</span></p>
-            <p>Support Inquiries: <span className="text-blue-600 dark:text-blue-400 font-mono">support@omnitools.app</span></p>
-            <p>Website: <span className="font-mono">https://omnitools.app</span></p>
+            <p>Email: <span className="text-blue-600 dark:text-blue-400 font-mono">omnitoolsofficial@gmail.com</span></p>
+            <p>Support Inquiries: <span className="text-blue-600 dark:text-blue-400 font-mono">omnitoolsofficial@gmail.com</span></p>
+            <p>Website: <span className="font-mono">https://www.omnitoolsweb.online</span></p>
           </div>
         </section>
       </div>

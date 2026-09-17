@@ -61,7 +61,7 @@ export default function ContactPage() {
               For general help and inquiries:
             </p>
             <p className="font-mono text-xs text-blue-600 dark:text-blue-400 font-semibold">
-              support@omnitools.app
+              omnitoolsofficial@gmail.com
             </p>
           </div>
 

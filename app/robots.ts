@@ -8,6 +8,6 @@ export default function robots(): MetadataRoute.Robots {
         allow: '/',
       },
     ],
-    sitemap: 'https://omnitools.app/sitemap.xml',
+    sitemap: 'https://www.omnitoolsweb.online/sitemap.xml',
   };
 }
