@@ -1,7 +1,6 @@
 import React from 'react';
 import type { Metadata } from 'next';
 import Breadcrumbs from '@/components/Breadcrumbs';
-import AdPlaceholder from '@/components/AdPlaceholder';
 import { FileCheck, ShieldAlert, Scale, CheckCircle } from 'lucide-react';
 
 export const metadata: Metadata = {
@@ -28,8 +27,6 @@ export default function TermsOfServicePage() {
           Last updated: <span className="font-medium text-slate-700 dark:text-slate-300">{lastUpdated}</span>
         </p>
       </div>
-
-      <AdPlaceholder slot="leaderboard" className="mb-8" />
 
       <div className="space-y-10 text-sm leading-relaxed text-slate-700 dark:text-slate-300">
         {/* Section 1 */}
@@ -77,8 +74,6 @@ export default function TermsOfServicePage() {
             <li>Distribute malware, trojans, viruses, or malicious payloads embedded within files.</li>
           </ul>
         </section>
-
-        <AdPlaceholder slot="in-article" />
 
         {/* Section 4 */}
         <section>

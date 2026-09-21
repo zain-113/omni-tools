@@ -2,7 +2,6 @@
 
 import React, { useState, useRef } from 'react';
 import Breadcrumbs from '@/components/Breadcrumbs';
-import AdPlaceholder from '@/components/AdPlaceholder';
 import SeoContent from '@/components/SeoContent';
 import { TOOLS } from '@/lib/tools-data';
 import { PDFDocument, PageSizes } from 'pdf-lib';
@@ -177,7 +176,6 @@ export default function ImageToPdfPage() {
     <main className="flex-1 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
       <Breadcrumbs items={[{ label: 'PDF Tools', href: '/#pdf-tools' }, { label: tool.name }]} />
 
-      <AdPlaceholder slot="leaderboard" className="mb-8" />
 
       {/* Tool Header */}
       <div className="mb-8">
@@ -387,7 +385,6 @@ export default function ImageToPdfPage() {
 
       <SeoContent tool={tool} />
 
-      <AdPlaceholder slot="footer" className="mt-12" />
     </main>
   );
 }

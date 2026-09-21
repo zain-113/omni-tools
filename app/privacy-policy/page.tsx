@@ -1,7 +1,6 @@
 import React from 'react';
 import type { Metadata } from 'next';
 import Breadcrumbs from '@/components/Breadcrumbs';
-import AdPlaceholder from '@/components/AdPlaceholder';
 import { Shield, Lock, Eye, Cookie, FileText } from 'lucide-react';
 
 export const metadata: Metadata = {
@@ -28,9 +27,6 @@ export default function PrivacyPolicyPage() {
           Last updated: <span className="font-medium text-slate-700 dark:text-slate-300">{lastUpdated}</span>
         </p>
       </div>
-
-      {/* AdSense Leaderboard Unit */}
-      <AdPlaceholder slot="leaderboard" className="mb-8" />
 
       {/* Core Privacy Architecture Callout */}
       <div className="p-6 rounded-2xl border border-emerald-200 dark:border-emerald-900/60 bg-emerald-50/50 dark:bg-emerald-950/20 mb-10">
@@ -152,9 +148,6 @@ export default function PrivacyPolicyPage() {
             This technical telemetry is used exclusively to optimize page loading performance, debug browser compatibility issues, and prevent malicious bot abuse.
           </p>
         </section>
-
-        {/* In-Article Ad Unit */}
-        <AdPlaceholder slot="in-article" />
 
         {/* Section 5 */}
         <section>

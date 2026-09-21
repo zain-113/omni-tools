@@ -3,7 +3,6 @@
 import React, { useState } from 'react';
 import { ChevronDown, CheckCircle2, ShieldCheck, Cpu, Lock, HelpCircle } from 'lucide-react';
 import { ToolMeta } from '@/lib/tools-data';
-import AdPlaceholder from './AdPlaceholder';
 
 interface SeoContentProps {
   tool: ToolMeta;
@@ -92,9 +91,6 @@ export default function SeoContent({ tool }: SeoContentProps) {
           ))}
         </div>
       </section>
-
-      {/* In-Article Ad Placement */}
-      <AdPlaceholder slot="in-article" className="my-10" />
 
       {/* Section 2: Deep-Dive Technical Overview & Educational Copy */}
       <section className="mb-14">

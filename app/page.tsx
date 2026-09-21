@@ -2,7 +2,6 @@
 
 import React, { useState, useMemo } from 'react';
 import ToolCard from '@/components/ToolCard';
-import AdPlaceholder from '@/components/AdPlaceholder';
 import { TOOLS } from '@/lib/tools-data';
 import {
   Search,
@@ -102,11 +101,10 @@ export default function HomePage() {
                   key={cat.id}
                   type="button"
                   onClick={() => setSelectedCategory(cat.id)}
-                  className={`px-3.5 py-1.5 text-xs font-semibold rounded-full border transition-all ${
-                    isSelected
-                      ? 'border-blue-600 bg-blue-600 text-white shadow-sm shadow-blue-500/25 scale-105'
-                      : 'border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 text-slate-600 dark:text-slate-400 hover:border-slate-300 dark:hover:border-slate-700'
-                  }`}
+                  className={`px-3.5 py-1.5 text-xs font-semibold rounded-full border transition-all ${isSelected
+                    ? 'border-blue-600 bg-blue-600 text-white shadow-sm shadow-blue-500/25 scale-105'
+                    : 'border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 text-slate-600 dark:text-slate-400 hover:border-slate-300 dark:hover:border-slate-700'
+                    }`}
                 >
                   {cat.label} ({cat.count})
                 </button>
@@ -116,10 +114,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Top Leaderboard Ad Unit */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8">
-        <AdPlaceholder slot="leaderboard" />
-      </div>
 
       {/* Tools Grid Section */}
       <section id="tools-directory" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -185,11 +179,6 @@ export default function HomePage() {
       <div id="data-tools" className="h-0 -mt-16" />
       <div id="audio-tools" className="h-0 -mt-16" />
 
-      {/* In-article Ad Placement */}
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
-        <AdPlaceholder slot="in-article" />
-      </div>
-
       {/* Why 100% Client-Side Architecture Section */}
       <section className="border-t border-slate-200 dark:border-slate-800 bg-slate-50/60 dark:bg-slate-900/30 py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -242,10 +231,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Footer Ad Placement */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <AdPlaceholder slot="footer" />
-      </div>
     </main>
   );
 }

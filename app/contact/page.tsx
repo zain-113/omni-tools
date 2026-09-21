@@ -2,7 +2,6 @@
 
 import React, { useState } from 'react';
 import Breadcrumbs from '@/components/Breadcrumbs';
-import AdPlaceholder from '@/components/AdPlaceholder';
 import { Mail, MessageSquare, Clock, Send, CheckCircle2, HelpCircle } from 'lucide-react';
 import Link from 'next/link';
 
@@ -44,8 +43,6 @@ export default function ContactPage() {
           Have a feature suggestion, encountered a browser rendering edge-case, or have questions about our privacy policies? Send us a message and we will respond promptly.
         </p>
       </div>
-
-      <AdPlaceholder slot="leaderboard" className="mb-10" />
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-14">
         {/* Contact Info Sidebar */}

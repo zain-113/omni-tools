@@ -2,7 +2,6 @@ import React from 'react';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import Breadcrumbs from '@/components/Breadcrumbs';
-import AdPlaceholder from '@/components/AdPlaceholder';
 import { ShieldCheck, Zap, Code, Award, Sparkles } from 'lucide-react';
 
 export const metadata: Metadata = {
@@ -28,8 +27,6 @@ export default function AboutPage() {
           OmniTools was founded on a simple premise: everyday digital file conversions should never force you to sacrifice your personal privacy or pay exorbitant subscription fees.
         </p>
       </div>
-
-      <AdPlaceholder slot="leaderboard" className="mb-12" />
 
       {/* Core Values Grid */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-14">
@@ -83,8 +80,6 @@ export default function AboutPage() {
             This traditional cloud-processing model creates tremendous cybersecurity liabilities. High-profile data breaches have repeatedly shown that files uploaded to &quot;free converter&quot; websites often linger on cloud storage buckets indefinitely, vulnerable to indexing, theft, or data harvesting. We believed there had to be a fundamentally better approach.
           </p>
         </section>
-
-        <AdPlaceholder slot="in-article" />
 
         <section>
           <h2 className="text-2xl font-bold text-slate-900 dark:text-slate-100 mb-3">
