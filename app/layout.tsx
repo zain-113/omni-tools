@@ -101,6 +101,14 @@ export default function RootLayout({
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5783091287827659"
           crossOrigin="anonymous"
         />
+
+        {/* Adsterra Social Bar */}
+        <Script
+          src="https://bauval.org/14/2f7a4b28954fd38c9ef6fd5b087a0346"
+          strategy="afterInteractive"
+          data-cfasync="false"
+        />
+
         <script
           dangerouslySetInnerHTML={{
             __html: `
