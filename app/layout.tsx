@@ -108,6 +108,12 @@ export default function RootLayout({
           strategy="afterInteractive"
           data-cfasync="false"
         />
+        {/* Adsterra Popunder */}
+        <Script
+          src="https://abscloud.org/1/3d3dcedddf1e8cfff73ca02d38be29ec"
+          strategy="afterInteractive"
+          data-cfasync="false"
+        />
 
         <script
           dangerouslySetInnerHTML={{
